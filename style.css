@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 #header {
     background-color: white;
     color: black;
@@ -11,24 +12,29 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
+
 #header__logo {
     width: 100px;
     height: 100px;
 }
+
 #header__item--left {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .item__left--list {
     margin: 0 10px;
 }
+
 .item__left--button {
     background-color: white;
     color: black;
@@ -40,6 +46,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 #header__search--bar {
     display: flex;
     justify-content: center;
@@ -47,6 +54,7 @@ body {
     border: 1px solid black;
     border-radius: 5px;
 }
+
 #search__text {
     width: 300px;
     height: 30px;
@@ -54,6 +62,7 @@ body {
     border-radius: 5px;
     padding: 5px;
 }
+
 #search__button {
     width: 30px;
     height: 30px;
@@ -63,6 +72,7 @@ body {
     background-position: center;
     cursor: pointer;
 }
+
 #header__light-dark-mode--switch {
     background-color: white;
     border: none;
@@ -70,19 +80,22 @@ body {
     width: 30px;
     height: 30px;
     background-color: white;
-    background-image: url('swtichmode.png');
+    background-image: url('switchmode.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
 }
+
 #header__item--right {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .item__right--function {
     margin: 0 10px;
 }
+
 #header__user {
     display: flex;
     justify-content: center;
@@ -90,7 +103,8 @@ body {
     border: solid 1px black;
     border-radius:  15px;
 }
-#user_signup {
+
+#user__signup {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -102,7 +116,8 @@ body {
     border-radius: 15px 0 0 15px;
     cursor: pointer;
 }
-#user_login {
+
+#user__login {
     background-color: #24ff2c;
     color: black;
     border: none;
@@ -121,6 +136,7 @@ body {
     width: 100%;
     background-color: black;
 }
+
 .item__bottom--scroll-button {
     background-color: black;
     color: white;
@@ -132,10 +148,12 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .item__bottom--link {
     margin: 0 10px;
     color: white;
 }
+
 #learn-to-code {
     display: flex;
     flex-direction: column;
@@ -143,19 +161,23 @@ body {
     align-items: center;
     background-color: #282A35;
 }
+
 #learn-to-code__h1 {
     font-size: 50px;
     color: white;
 }
+
 #learn-to-code__h3 {
     font-size: 30px;
     color: #FFF4A2;
 }
+
 #learn-to-code__search--bar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #search__bar--text {
     width: 300px;
     height: 30px;
@@ -163,6 +185,7 @@ body {
     border-radius: 20px 0 0 20px;
     padding: 5px;
 }
+
 #search__bar--button {
     background-color: #4CAF50;
     color: white;
@@ -177,17 +200,20 @@ body {
     border-radius: 0 20px 20px 0;
     cursor: pointer;
 }
+
 #learn-to-code__link {
     font-size: 20px;
     color: white;
     text-decoration: underline;
 }
+
 #html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #d9eee1;
 }
+
 #html__left {
     display: flex;
     flex-direction: column;
@@ -196,19 +222,23 @@ body {
     height: 100vh;
     padding: 30px;
 }
+
 #html__left--h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #html__left--text {
     font-size: 20px;
 }
+
 #html__right {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .example {
     display: flex;
     flex-direction: column;
@@ -218,13 +248,16 @@ body {
     padding: 30px;
     background-color: #e7e9eb;
 }
+
 .example__h3 {
     font-size: 30px;
 }
+
 .example__code {
     font-size: 20px;
     background-color: white;
 }
+
 .example__button {
     background-color: #04AA6D;
     color: white;
@@ -238,6 +271,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 #content__button--green-card {
     background-color: #04AA6D;
     color: white;
@@ -252,6 +286,7 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 #content__button--yellow-card {
     background-color: #f4d03f;
     color: white;
@@ -266,6 +301,7 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 #content__button--black-card {
     background-color: #34495e;
     color: white;
@@ -280,6 +316,7 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 #content__button--pink-card {
     background-color: #f1948a;
     color: white;
@@ -294,6 +331,7 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 #content__button--gray-card {
     background-color: #85929e;
     color: white;
@@ -308,12 +346,14 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 #css {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #fff4a3;
 }
+
 #css__left {
     display: flex;
     flex-direction: column;
@@ -322,20 +362,24 @@ body {
     height: 100vh;
     padding: 30px;
 }
+
 #css__left--h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #css__left--text {
     font-size: 20px;
 }
+
 #javascript {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #282a35;
 }
+
 #javascript__left {
     display: flex;
     flex-direction: column;
@@ -344,20 +388,24 @@ body {
     height: 100vh;
     padding: 30px;
 }
+
 #javascript__left--h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #javascript__left--text {
     font-size: 20px;
 }
+
 #python {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #f3ecea;
 }
+
 #python__left {
     display: flex;
     flex-direction: column;
@@ -366,20 +414,24 @@ body {
     height: 100vh;
     padding: 30px;
 }
+
 #python__left--h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #python__left--text {
     font-size: 20px;
 }
+
 #sql {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #96d4d4;
 }
+
 #sql__left {
     display: flex;
     flex-direction: column;
@@ -388,14 +440,17 @@ body {
     height: 100vh;
     padding: 30px;
 }
+
 #sql__left--h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #sql__left--text {
     font-size: 20px;
 }
+
 #div__learn {
     display: flex;
     flex-wrap: wrap;
@@ -404,13 +459,16 @@ body {
     gap: 10px;
     background-color: #282a35;
 }
+
 .learn__h1 {
     font-size: 40px;
 }
+
 .learn__h3 {
     font-size: 15px;
     color: gray;
 }
+
 .learn__button {
     background-color: #282a35;
     color: white;
@@ -424,6 +482,7 @@ body {
     width: 150px;
     cursor: pointer;
 }
+
 #learn__php {
     padding: 20px;
     box-sizing: border-box;
@@ -431,6 +490,7 @@ body {
     width: calc(50% - 5px);
     background-color: #ffc0c7;
 }
+
 #learn__jQuery {
     padding: 20px;
     box-sizing: border-box;
@@ -438,6 +498,7 @@ body {
     width: calc(50% - 5px);
     background-color: #fff4a3;
 }
+
 #learn__java {
     padding: 20px;
     box-sizing: border-box;
@@ -445,6 +506,7 @@ body {
     width: calc(50% - 5px);
     background-color: #f3ecea;
 }
+
 #learn__cpp {
     padding: 20px;
     box-sizing: border-box;
@@ -452,6 +514,7 @@ body {
     width: calc(50% - 5px);
     background-color: #d9eee1;
 }
+
 #learn__w3css {
     padding: 20px;
     box-sizing: border-box;
@@ -459,6 +522,7 @@ body {
     width: calc(50% - 5px);
     background-color: #96d4d4;
 }
+
 #learn__bootstrap {
     padding: 20px;
     box-sizing: border-box;
@@ -466,6 +530,7 @@ body {
     width: calc(50% - 5px);
     background-color: #e7e9eb;
 }
+
 #tutorial {
     display: flex;
     flex-wrap: wrap;
@@ -474,6 +539,7 @@ body {
     background-color: #282a35;
     gap: 5px;
 }
+
 #tutorial__big-card{
     padding: 20px;
     box-sizing: border-box;
@@ -481,18 +547,21 @@ body {
     height: 150px;
     width: calc(50% - 5px);
 }
+
 #tutorial__small-card{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
     width: calc(25% - 5px);
 }
+
 #tutorial__long-card {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
     width: calc(50% - 5px);
 }
+
 .tutorial__pink {
     background-color: #eab1b8;
     color: black;
@@ -504,6 +573,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .tutorial__yellow {
     background-color: #eae098;
     color: black;
@@ -515,6 +585,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .tutorial__gray {
     background-color: #dfd9d8;
     color: black;
@@ -526,6 +597,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .tutorial__cyan {
     background-color: #c8dbd0;
     color: black;
@@ -537,6 +609,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .tutorial__turtoise {
     background-color: #8bc3c4;
     color: black;
@@ -548,6 +621,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 .tutorial__red {
     background-color: #eab1b8;
     color: black;
@@ -559,6 +633,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 #code-editor {
     display: flex;
     flex-direction: column;
@@ -567,14 +642,17 @@ body {
     background-color: #282a35;
     height: 100vh;
 }
+
 #code-editor__h1 {
     font-size: 50px;
     color: white;
 }
+
 #code-editor__text {
     font-size: 20px;
     color: white;
 }
+
 #code-editor__container-button {
     display: flex;
     flex-direction: column;
@@ -583,6 +661,7 @@ body {
     height: 20vh;
     width: 50%;
 }
+
 #container-button__frontend-link--button {
     background-color: #04aa6d;
     color: white;
@@ -595,6 +674,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 #container-button__backend-link--button {
     background-color: #fff4a3;
     color: black;
@@ -607,6 +687,7 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
 #w3Schools-Spaces {
     display: flex;
     flex-direction: column;
@@ -615,18 +696,22 @@ body {
     height: 100vh;
     background-color: #282a35;
 }
+
 #w3Schools-Spaces__h1 {
     font-size: 50px;
     color: white;
 }
+
 #w3Schools-Spaces__text {
     font-size: 20px;
     color: white;
 }
+
 #w3Schools-Spaces__image {
     width: 300px;
     height: 300px;
 }
+
 #w3Schools-Spaces__button {
     background-color: #05a86c;
     color: white;
@@ -641,6 +726,7 @@ body {
     width: 300px;
     cursor: pointer;
 }
+
 #my-learning {
     display: flex;
     flex-direction: column;
@@ -649,16 +735,20 @@ body {
     height: 100vh;
     background-color: #d9eee1;
 }
+
 #my-learning__h1 {
     font-size: 50px;
 }
+
 #my-learning__text {
     font-size: 20px;
 }
+
 #my-learning__image {
     width: 300px;
     height: 300px;
 }
+
 #my-learning__button {
     background-color: #05a86c;
     color: white;
@@ -673,6 +763,7 @@ body {
     width: 300px;
     cursor: pointer;
 }
+
 #become-a-plus-user {
     display: flex;
     flex-direction: column;
@@ -681,10 +772,12 @@ body {
     height: 100vh;
     background-color: #282a35;
 }
+
 #become-a-plus-user__h1 {
     font-size: 50px;
     color: white;
 }
+
 #become-a-plus-user__content {
     display: flex;
     flex-direction: column;
@@ -692,19 +785,38 @@ body {
     align-items: flex-start;
     list-style: none;
 }
+
 #content__h2 {
     font-size: 25px;
     color: #fec0c7;
 }
+
 .content__list {
     font-size: 20px;
     color: white;
 }
+
 .content__list::before {
     content: "✔";
     color: #04aa6d;
     margin-right: 10px;
 }
+
+#become-a-plus-user__button {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 60px;
+    width: 300px;
+    cursor: pointer;
+}
+
 #color-picker {
     display: flex;
     flex-direction: column;
@@ -713,16 +825,20 @@ body {
     height: 80vh;
     background-color: #f3ecea;
 }
+
 #color-picker__h1 {
     font-size: 50px;
 }
+
 #color-picker__text {
     font-size: 20px;
 }
+
 #color-picker__image {
     width: 100px;
     height: 100px;
 }
+
 #code-game {
     display: flex;
     flex-direction: column;
@@ -731,16 +847,20 @@ body {
     height: 80vh;
     background-color: #96d4d4;
 }
+
 #code-game__h1 {
     font-size: 50px;
 }
+
 #code-game__text {
     font-size: 20px;
 }
+
 #code-game__image {
     width: 100px;
     height: 100px;
 }
+
 #code-game__button {
     background-color: #282a35;
     color: white;
